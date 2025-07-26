@@ -56,13 +56,13 @@ img {
 
 /* Logo Components */
 .c-m-logo-icon {
-    font-size: calc(3 * var(--rv));
+    font-size: calc(2.4 * var(--rv));
     color: var(--primary-color);
-    margin-right: calc(1 * var(--rv));
+    margin-right: calc(0.8 * var(--rv));
 }
 
 .c-m-logo-text {
-    font-size: calc(2.4 * var(--rv));
+    font-size: calc(1.8 * var(--rv));
     font-weight: 900;
     color: var(--text-color);
 }
@@ -71,41 +71,46 @@ img {
 .c-m-dashboard-mockup {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: calc(3 * var(--rv));
-    padding: calc(6 * var(--rv));
+    gap: calc(2 * var(--rv));
+    padding: calc(4 * var(--rv));
     background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
-    border-radius: calc(2 * var(--rv));
-    box-shadow: 0 calc(2 * var(--rv)) calc(4 * var(--rv)) rgba(0, 0, 0, 0.1);
+    border-radius: calc(1.6 * var(--rv));
+    box-shadow: 0 calc(1 * var(--rv)) calc(3 * var(--rv)) rgba(0, 0, 0, 0.1);
+    max-width: calc(40 * var(--rv));
+    margin: 0 auto;
 }
 
 .c-m-dashboard-mockup .material-icons {
-    font-size: calc(8 * var(--rv));
+    font-size: calc(6 * var(--rv));
     color: var(--primary-color);
     background: white;
-    padding: calc(2 * var(--rv));
-    border-radius: calc(1 * var(--rv));
-    box-shadow: 0 calc(0.5 * var(--rv)) calc(1 * var(--rv)) rgba(0, 0, 0, 0.1);
+    padding: calc(1.5 * var(--rv));
+    border-radius: calc(0.8 * var(--rv));
+    box-shadow: 0 calc(0.4 * var(--rv)) calc(0.8 * var(--rv)) rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .c-m-dashboard-mockup .material-icons:hover {
-    transform: translateY(calc(-0.5 * var(--rv)));
+    transform: translateY(calc(-0.3 * var(--rv)));
 }
 
 .c-m-feature-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: calc(20 * var(--rv));
-    height: calc(20 * var(--rv));
+    width: calc(16 * var(--rv));
+    height: calc(16 * var(--rv));
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     border-radius: 50%;
     margin: 0 auto;
-    box-shadow: 0 calc(2 * var(--rv)) calc(4 * var(--rv)) rgba(37, 99, 235, 0.3);
+    box-shadow: 0 calc(1 * var(--rv)) calc(2 * var(--rv)) rgba(37, 99, 235, 0.3);
 }
 
 .c-m-feature-icon .material-icons {
-    font-size: calc(8 * var(--rv));
+    font-size: calc(6 * var(--rv));
     color: white;
 }
 
@@ -121,51 +126,10 @@ img {
 }
 
 .c-m-avatar .material-icons {
-    font-size: calc(3 * var(--rv));
+    font-size: calc(2.4 * var(--rv));
     color: var(--text-light);
 }
 
-/* Button Components */
-.c-m-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: calc(1.5 * var(--rv)) calc(3 * var(--rv));
-    font-size: calc(1.6 * var(--rv));
-    font-weight: 700;
-    text-decoration: none;
-    border-radius: calc(0.8 * var(--rv));
-    transition: all 0.3s ease;
-    border: 2px solid transparent;
-    cursor: pointer;
-}
-
-.c-m-btn--primary {
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    color: white;
-}
-
-.c-m-btn--primary:hover {
-    transform: translateY(calc(-0.2 * var(--rv)));
-    box-shadow: 0 calc(1 * var(--rv)) calc(2 * var(--rv)) rgba(37, 99, 235, 0.3);
-}
-
-.c-m-btn--secondary {
-    background: white;
-    color: var(--primary-color);
-    border-color: var(--primary-color);
-}
-
-.c-m-btn--outline {
-    background: transparent;
-    color: var(--primary-color);
-    border-color: var(--primary-color);
-}
-
-.c-m-btn--large {
-    padding: calc(2 * var(--rv)) calc(4 * var(--rv));
-    font-size: calc(1.8 * var(--rv));
-}
 
 /* Header */
 .l-m-header {
@@ -189,6 +153,10 @@ img {
 .l-m-header__logo {
     display: flex;
     align-items: center;
+}
+
+.l-m-header__logo img {
+    height: calc(3.2 * var(--rv));
 }
 
 .l-m-header__nav {
@@ -833,5 +801,33 @@ img {
     .l-m-footer__bottom {
         flex-direction: column;
         gap: calc(2 * var(--rv));
+    }
+
+    .c-m-dashboard-mockup {
+        max-width: calc(30 * var(--rv));
+        padding: calc(3 * var(--rv));
+        gap: calc(1.5 * var(--rv));
+    }
+
+    .c-m-dashboard-mockup .material-icons {
+        font-size: calc(4 * var(--rv));
+        padding: calc(1 * var(--rv));
+    }
+
+    .c-m-feature-icon {
+        width: calc(12 * var(--rv));
+        height: calc(12 * var(--rv));
+    }
+
+    .c-m-feature-icon .material-icons {
+        font-size: calc(4.5 * var(--rv));
+    }
+
+    .c-m-logo-icon {
+        font-size: calc(2 * var(--rv));
+    }
+
+    .c-m-logo-text {
+        font-size: calc(1.6 * var(--rv));
     }
 }
