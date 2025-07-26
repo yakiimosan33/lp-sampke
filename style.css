@@ -54,6 +54,77 @@ img {
     color: var(--accent-color);
 }
 
+/* Logo Components */
+.c-m-logo-icon {
+    font-size: calc(3 * var(--rv));
+    color: var(--primary-color);
+    margin-right: calc(1 * var(--rv));
+}
+
+.c-m-logo-text {
+    font-size: calc(2.4 * var(--rv));
+    font-weight: 900;
+    color: var(--text-color);
+}
+
+/* Icon Components */
+.c-m-dashboard-mockup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: calc(3 * var(--rv));
+    padding: calc(6 * var(--rv));
+    background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+    border-radius: calc(2 * var(--rv));
+    box-shadow: 0 calc(2 * var(--rv)) calc(4 * var(--rv)) rgba(0, 0, 0, 0.1);
+}
+
+.c-m-dashboard-mockup .material-icons {
+    font-size: calc(8 * var(--rv));
+    color: var(--primary-color);
+    background: white;
+    padding: calc(2 * var(--rv));
+    border-radius: calc(1 * var(--rv));
+    box-shadow: 0 calc(0.5 * var(--rv)) calc(1 * var(--rv)) rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.c-m-dashboard-mockup .material-icons:hover {
+    transform: translateY(calc(-0.5 * var(--rv)));
+}
+
+.c-m-feature-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(20 * var(--rv));
+    height: calc(20 * var(--rv));
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 calc(2 * var(--rv)) calc(4 * var(--rv)) rgba(37, 99, 235, 0.3);
+}
+
+.c-m-feature-icon .material-icons {
+    font-size: calc(8 * var(--rv));
+    color: white;
+}
+
+.c-m-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(5 * var(--rv));
+    height: calc(5 * var(--rv));
+    background: var(--bg-light);
+    border-radius: 50%;
+    border: 2px solid var(--border-color);
+}
+
+.c-m-avatar .material-icons {
+    font-size: calc(3 * var(--rv));
+    color: var(--text-light);
+}
+
 /* Button Components */
 .c-m-btn {
     display: inline-flex;
@@ -115,8 +186,9 @@ img {
     height: calc(8 * var(--rv));
 }
 
-.l-m-header__logo img {
-    height: calc(4 * var(--rv));
+.l-m-header__logo {
+    display: flex;
+    align-items: center;
 }
 
 .l-m-header__nav {
@@ -459,12 +531,6 @@ img {
     gap: calc(1.5 * var(--rv));
 }
 
-.p-m-index-voice__author img {
-    width: calc(5 * var(--rv));
-    height: calc(5 * var(--rv));
-    border-radius: 50%;
-    object-fit: cover;
-}
 
 .p-m-index-voice__author h4 {
     font-size: calc(1.6 * var(--rv));
