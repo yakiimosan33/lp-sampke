@@ -3,176 +3,479 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>週刊！AIクリエイターズ・スタジオ｜苦手なまま、始めてもいい場所</title>
+    <title>CreativeFlow - クリエイターのためのAIアシスタント</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- ヘッダー -->
-    <header class="hero">
-        <div class="container">
-            <h1 class="hero-title">「苦手なまま、始めてもいい場所」</h1>
-            <p class="hero-subtitle">AIと一緒に、あなたも「創る側」になれる</p>
-            <p class="hero-description">文章が苦手、話すのが苦手、そんなあなたこそAIで輝ける時代です</p>
-            <a href="https://note.com/yakiimo_blog/membership" class="cta-button" target="_blank">週刊！AIクリエイター・スタジオを覗いてみる</a>
+    <!-- Header -->
+    <header class="l-m-header">
+        <div class="c-m-inner">
+            <div class="l-m-header__content">
+                <div class="l-m-header__logo">
+                    <img src="#" alt="CreativeFlow" />
+                </div>
+                <nav class="l-m-header__nav">
+                    <a href="#problem">課題</a>
+                    <a href="#feature">特徴</a>
+                    <a href="#plan">料金</a>
+                    <a href="#faq">FAQ</a>
+                </nav>
+                <div class="l-m-header__actions">
+                    <a href="#" class="c-m-btn c-m-btn--secondary">ログイン</a>
+                    <a href="#" class="c-m-btn c-m-btn--primary">無料で始める</a>
+                </div>
+            </div>
         </div>
     </header>
 
-    <!-- 問題提起セクション -->
-    <section class="problems">
-        <div class="container">
-            <h2 class="section-title">こんな悩み、ありませんか？</h2>
-            <div class="problem-list">
-                <div class="problem-item">
-                    <h3>文章を書くのが遅くて、伝えたいことがうまく表現できない</h3>
+    <!-- Main Visual -->
+    <section class="p-m-index-mv">
+        <div class="c-m-inner">
+            <div class="p-m-index-mv__content">
+                <div class="p-m-index-mv__text">
+                    <h1 class="p-m-index-mv__head">
+                        クリエイター業務を<br>
+                        <span class="c-m-accent">AI</span>で自動化
+                    </h1>
+                    <p class="p-m-index-mv__desc">
+                        アイデア出しから企画書作成まで。CreativeFlowなら、あなたの創作活動を効率化し、<br>
+                        本当に大切なクリエイティブワークに集中できます。
+                    </p>
+                    <div class="p-m-index-mv__actions">
+                        <a href="#" class="c-m-btn c-m-btn--primary c-m-btn--large">
+                            無料トライアルを始める
+                        </a>
+                        <a href="#" class="c-m-btn c-m-btn--outline c-m-btn--large">
+                            デモを見る
+                        </a>
+                    </div>
                 </div>
-                <div class="problem-item">
-                    <h3>アイデアはあるけど、カタチにする方法がわからない</h3>
-                </div>
-                <div class="problem-item">
-                    <h3>AI界隈は「稼げる」話ばかりで、なんだか違和感を感じる</h3>
+                <div class="p-m-index-mv__image">
+                    <img src="#" alt="CreativeFlow Dashboard" />
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ソリューションセクション -->
-    <section class="solution">
-        <div class="container">
-            <h2 class="section-title">AIクリエイターズ・スタジオとは</h2>
-            <p class="solution-description">弱者が「アイデア1つで輝ける世界」を目指すコミュニティです</p>
+    <!-- Problem -->
+    <section class="p-m-index-problem" id="problem">
+        <div class="c-m-inner">
+            <h2 class="c-m-section-title">こんなお悩みありませんか？</h2>
+            <div class="p-m-index-problem__grid">
+                <div class="p-m-index-problem__item c-m-fade-chain01">
+                    <div class="p-m-index-problem__icon">😰</div>
+                    <h3>アイデアが浮かばない</h3>
+                    <p>クライアントの要望に応えるアイデアが思い浮かばず、時間ばかりが過ぎていく...</p>
+                </div>
+                <div class="p-m-index-problem__item c-m-fade-chain02">
+                    <div class="p-m-index-problem__icon">⏰</div>
+                    <h3>企画書作成に時間がかかる</h3>
+                    <p>毎回企画書をゼロから作成するため、本来のクリエイティブ作業の時間が削られる...</p>
+                </div>
+                <div class="p-m-index-problem__item c-m-fade-chain03">
+                    <div class="p-m-index-problem__icon">😵</div>
+                    <h3>リサーチが大変</h3>
+                    <p>トレンド調査や競合分析など、情報収集だけで1日が終わってしまう...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to -->
+    <section class="p-m-index-howto">
+        <div class="c-m-inner">
+            <h2 class="c-m-section-title">CreativeFlowが解決します</h2>
+            <div class="p-m-index-howto__content">
+                <div class="p-m-index-howto__step">
+                    <div class="p-m-index-howto__number">01</div>
+                    <h3>AIがアイデアを提案</h3>
+                    <p>プロジェクトの概要を入力するだけで、AIが無数のクリエイティブアイデアを生成します。</p>
+                </div>
+                <div class="p-m-index-howto__step">
+                    <div class="p-m-index-howto__number">02</div>
+                    <h3>自動で企画書を作成</h3>
+                    <p>選択したアイデアを基に、プロ仕様の企画書を自動生成。編集も簡単です。</p>
+                </div>
+                <div class="p-m-index-howto__step">
+                    <div class="p-m-index-howto__number">03</div>
+                    <h3>リアルタイムリサーチ</h3>
+                    <p>最新のトレンドや競合情報を自動収集し、データに基づいた提案を行います。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature -->
+    <section class="p-m-index-feature" id="feature">
+        <div class="c-m-inner">
+            <h2 class="c-m-section-title">主な機能</h2>
             
-            <div class="achievements">
-                <div class="achievement-item">
-                    <div class="achievement-number">250個</div>
-                    <div class="achievement-text">GPTs制作実績</div>
+            <div class="p-m-index-feature__item">
+                <div class="p-m-index-feature__text">
+                    <h3>AI アイデアジェネレーター</h3>
+                    <p>キーワードや業界を入力するだけで、AIが数十個のユニークなアイデアを瞬時に生成。創作のインスピレーションが途切れることはありません。</p>
+                    <ul>
+                        <li>業界特化型アイデア生成</li>
+                        <li>ターゲット層に応じた提案</li>
+                        <li>クリエイティブブリーフ自動作成</li>
+                    </ul>
                 </div>
-                <div class="achievement-item">
-                    <div class="achievement-number">410部</div>
-                    <div class="achievement-text">初作品「ブログAIチーム」販売達成</div>
+                <div class="p-m-index-feature__image">
+                    <img src="#" alt="AI アイデアジェネレーター" />
                 </div>
-                <div class="achievement-item">
-                    <div class="achievement-number">1割未満</div>
-                    <div class="achievement-text">AI界隈で継続実践者</div>
+            </div>
+
+            <div class="p-m-index-feature__item p-m-index-feature__item--reverse">
+                <div class="p-m-index-feature__text">
+                    <h3>スマート企画書作成</h3>
+                    <p>テンプレートとAIの組み合わせで、プロ仕様の企画書を数分で完成。クライアントプレゼンテーションの準備時間を大幅短縮します。</p>
+                    <ul>
+                        <li>業界別テンプレート</li>
+                        <li>自動レイアウト調整</li>
+                        <li>パワーポイント出力対応</li>
+                    </ul>
+                </div>
+                <div class="p-m-index-feature__image">
+                    <img src="#" alt="スマート企画書作成" />
+                </div>
+            </div>
+
+            <div class="p-m-index-feature__item">
+                <div class="p-m-index-feature__text">
+                    <h3>トレンド分析ダッシュボード</h3>
+                    <p>SNS、ニュース、業界レポートから最新トレンドを自動収集。データに基づいたクリエイティブ戦略を立案できます。</p>
+                    <ul>
+                        <li>リアルタイムトレンド監視</li>
+                        <li>競合分析レポート</li>
+                        <li>消費者インサイト抽出</li>
+                    </ul>
+                </div>
+                <div class="p-m-index-feature__image">
+                    <img src="#" alt="トレンド分析ダッシュボード" />
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 発信内容セクション -->
-    <section class="content">
-        <div class="container">
-            <h2 class="section-title">発信内容</h2>
-            <div class="content-pillars">
-                <div class="pillar">
-                    <h3>裏話系</h3>
-                    <p>リアルな制作プロセス</p>
-                    <ul>
-                        <li>GPTs収益化ロードマップ</li>
-                        <li>ローンチの裏話</li>
-                        <li>リアルタイム進捗報告</li>
-                    </ul>
+    <!-- List -->
+    <section class="p-m-index-list">
+        <div class="c-m-inner">
+            <h2 class="c-m-section-title">全機能一覧</h2>
+            <div class="p-m-index-list__grid">
+                <div class="p-m-index-list__item">
+                    <h4>AI アイデア生成</h4>
+                    <p>無限のクリエイティブアイデア</p>
                 </div>
-                <div class="pillar">
-                    <h3>マインド/マーケティング系</h3>
-                    <p>収益化の思考法</p>
-                    <ul>
-                        <li>0→1突破編</li>
-                        <li>1→100収益化の思考法</li>
-                        <li>マーケティング戦略</li>
-                    </ul>
+                <div class="p-m-index-list__item">
+                    <h4>企画書自動作成</h4>
+                    <p>プロ仕様の提案書を数分で</p>
                 </div>
-                <div class="pillar">
-                    <h3>AIテクニック系</h3>
-                    <p>実践的な技術ノウハウ</p>
-                    <ul>
-                        <li>GPTsの始め方から作り方</li>
-                        <li>API連携（上級者向け）</li>
-                        <li>AIチームの作り方</li>
-                    </ul>
+                <div class="p-m-index-list__item">
+                    <h4>トレンド分析</h4>
+                    <p>最新市場動向の自動収集</p>
+                </div>
+                <div class="p-m-index-list__item">
+                    <h4>競合調査</h4>
+                    <p>競合他社の戦略分析</p>
+                </div>
+                <div class="p-m-index-list__item">
+                    <h4>ブランディング支援</h4>
+                    <p>一貫したブランド戦略提案</p>
+                </div>
+                <div class="p-m-index-list__item">
+                    <h4>プロジェクト管理</h4>
+                    <p>チーム連携とタスク管理</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 料金プランセクション -->
-    <section class="pricing">
-        <div class="container">
-            <h2 class="section-title">料金プラン</h2>
-            <div class="pricing-table">
-                <div class="plan">
-                    <h3>のぞき見スタジオ</h3>
-                    <div class="price">500円<span>/月</span></div>
-                    <p class="plan-description">「サクッと読みたい」におすすめ！</p>
-                    <ul>
-                        <li>毎週1〜2本の記事更新</li>
-                        <li>全記事読み放題</li>
-                        <li>AI最新トレンド（不定期）</li>
-                    </ul>
+    <!-- CTA -->
+    <section class="p-m-index-cta">
+        <div class="c-m-inner">
+            <div class="p-m-index-cta__content">
+                <h2>今すぐ創作活動を加速させませんか？</h2>
+                <p>14日間無料トライアルで、CreativeFlowのパワーを体験してください。</p>
+                <a href="#" class="c-m-btn c-m-btn--primary c-m-btn--large">
+                    無料トライアルを開始
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strength -->
+    <section class="p-m-index-strength">
+        <div class="c-m-inner">
+            <h2 class="c-m-section-title">CreativeFlowの強み</h2>
+            <div class="p-m-index-strength__grid">
+                <div class="p-m-index-strength__item">
+                    <h3>🎯 業界特化AI</h3>
+                    <p>広告、デザイン、映像など、各業界の特性に最適化されたAIモデルを搭載</p>
                 </div>
-                <div class="plan featured">
-                    <h3>みんなのスタジオ</h3>
-                    <div class="price">980円<span>/月</span></div>
-                    <p class="plan-description">「AIコンテンツ制作でモチベ維持したい人」におすすめ</p>
-                    <ul>
-                        <li>記事読み放題</li>
-                        <li>コミュニティ（Discord）</li>
-                        <li>テキスト相談</li>
-                        <li>月1グループWebオンライン活動会</li>
-                    </ul>
+                <div class="p-m-index-strength__item">
+                    <h3>⚡ 圧倒的スピード</h3>
+                    <p>従来の企画作成時間を90%短縮。アイデアから企画書まで10分で完成</p>
                 </div>
-                <div class="plan">
-                    <h3>ガチ相談</h3>
-                    <div class="price">3,980円<span>/月</span></div>
-                    <p class="plan-description">「スポット相談したい人」におすすめ！</p>
-                    <ul>
-                        <li>全プラン内容</li>
-                        <li>個別戦略相談</li>
-                        <li>AI活用の個別Web相談</li>
-                        <li>1時間×2回/月</li>
-                    </ul>
+                <div class="p-m-index-strength__item">
+                    <h3>🔒 セキュリティ重視</h3>
+                    <p>エンタープライズ級のセキュリティで、機密性の高いプロジェクトも安心</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 創設者メッセージセクション -->
-    <section class="founder-message">
-        <div class="container">
-            <h2 class="section-title">創設者からのメッセージ</h2>
-            <div class="message-content">
-                <p>僕自身も「発信が苦手」「文章が苦手」「構成力に自信がない」そんな状態からスタートしました。</p>
-                <p>でも、AI（GPTs）を使いながら、自分なりのやり方で試行錯誤を重ね、少しずつ「創る側」に慣れて、作品「ブログAIチーム」を創作していったんです。</p>
-                <p>この体験を、収益という「見える数字」と一緒に伝えることで、「あ、自分にもできるかもしれない」って思ってくれる人が増えたら嬉しいです。</p>
-                <div class="signature">
-                    <p><strong>やきいも@AIチーム｜ AIクリエイターズ・スタジオ</strong></p>
+    <!-- Diff -->
+    <section class="p-m-index-diff">
+        <div class="c-m-inner">
+            <h2 class="c-m-section-title">他社比較</h2>
+            <div class="p-m-index-diff__table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>機能</th>
+                            <th>CreativeFlow</th>
+                            <th>A社</th>
+                            <th>B社</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>AIアイデア生成</td>
+                            <td class="c-m-check">✓</td>
+                            <td class="c-m-check">✓</td>
+                            <td class="c-m-cross">✗</td>
+                        </tr>
+                        <tr>
+                            <td>自動企画書作成</td>
+                            <td class="c-m-check">✓</td>
+                            <td class="c-m-cross">✗</td>
+                            <td class="c-m-cross">✗</td>
+                        </tr>
+                        <tr>
+                            <td>リアルタイムトレンド分析</td>
+                            <td class="c-m-check">✓</td>
+                            <td class="c-m-cross">✗</td>
+                            <td class="c-m-check">✓</td>
+                        </tr>
+                        <tr>
+                            <td>業界特化AI</td>
+                            <td class="c-m-check">✓</td>
+                            <td class="c-m-cross">✗</td>
+                            <td class="c-m-cross">✗</td>
+                        </tr>
+                        <tr>
+                            <td>月額料金</td>
+                            <td class="c-m-price">¥9,800</td>
+                            <td class="c-m-price">¥15,000</td>
+                            <td class="c-m-price">¥12,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Voice -->
+    <section class="p-m-index-voice">
+        <div class="c-m-inner">
+            <h2 class="c-m-section-title">利用者の声</h2>
+            <div class="p-m-index-voice__slider">
+                <div class="p-m-index-voice__item">
+                    <div class="p-m-index-voice__content">
+                        <p>「企画書作成の時間が90%短縮されました。クライアントワークに集中できるようになり、売上も大幅にアップしました。」</p>
+                        <div class="p-m-index-voice__author">
+                            <img src="#" alt="田中様" />
+                            <div>
+                                <h4>田中 美咲様</h4>
+                                <span>広告代理店 クリエイティブディレクター</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-m-index-voice__item">
+                    <div class="p-m-index-voice__content">
+                        <p>「AIが提案するアイデアの質が想像以上に高く、新しい発想のきっかけをたくさんもらえています。創作活動が楽しくなりました。」</p>
+                        <div class="p-m-index-voice__author">
+                            <img src="#" alt="佐藤様" />
+                            <div>
+                                <h4>佐藤 雄介様</h4>
+                                <span>フリーランス デザイナー</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-m-index-voice__item">
+                    <div class="p-m-index-voice__content">
+                        <p>「トレンド分析機能で競合他社の動向を把握でき、戦略的な企画立案ができるようになりました。チーム全体の生産性が向上しています。」</p>
+                        <div class="p-m-index-voice__author">
+                            <img src="#" alt="山田様" />
+                            <div>
+                                <h4>山田 智子様</h4>
+                                <span>マーケティング会社 プランナー</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CTAセクション -->
-    <section id="cta" class="cta-section">
-        <div class="container">
-            <h2>今すぐ始めてみませんか？</h2>
-            <p>あなたの「やってみたい」という素直な気持ちの後押しになれば嬉しいです</p>
-            <a href="https://note.com/yakiimo_blog/membership" class="cta-button large" target="_blank">週刊！AIクリエイター・スタジオを覗いてみる</a>
-            
-            <div class="contact-info">
-                <h3>ご不明点やご相談はこちら</h3>
-                <div class="contact-links">
-                    <a href="https://x.com/se_yakiimosan" target="_blank">X (Twitter)</a>
-                    <a href="https://line.me" target="_blank">公式LINE</a>
-                    <a href="https://yakiimosan.com/" target="_blank">ブログ</a>
+    <!-- Plan -->
+    <section class="p-m-index-plan" id="plan">
+        <div class="c-m-inner">
+            <h2 class="c-m-section-title">料金プラン</h2>
+            <div class="p-m-index-plan__grid">
+                <div class="p-m-index-plan__item">
+                    <h3>フリープラン</h3>
+                    <div class="p-m-index-plan__price">
+                        <span class="p-m-index-plan__amount">¥0</span>
+                        <span class="p-m-index-plan__period">/月</span>
+                    </div>
+                    <ul>
+                        <li>AIアイデア生成 (月10回)</li>
+                        <li>基本テンプレート</li>
+                        <li>メールサポート</li>
+                    </ul>
+                    <a href="#" class="c-m-btn c-m-btn--outline">無料で始める</a>
+                </div>
+                
+                <div class="p-m-index-plan__item p-m-index-plan__item--featured">
+                    <div class="p-m-index-plan__badge">人気</div>
+                    <h3>プロプラン</h3>
+                    <div class="p-m-index-plan__price">
+                        <span class="p-m-index-plan__amount">¥9,800</span>
+                        <span class="p-m-index-plan__period">/月</span>
+                    </div>
+                    <ul>
+                        <li>AIアイデア生成 (無制限)</li>
+                        <li>自動企画書作成</li>
+                        <li>トレンド分析</li>
+                        <li>競合調査</li>
+                        <li>チャットサポート</li>
+                    </ul>
+                    <a href="#" class="c-m-btn c-m-btn--primary">14日間無料トライアル</a>
+                </div>
+                
+                <div class="p-m-index-plan__item">
+                    <h3>エンタープライズ</h3>
+                    <div class="p-m-index-plan__price">
+                        <span class="p-m-index-plan__amount">¥29,800</span>
+                        <span class="p-m-index-plan__period">/月</span>
+                    </div>
+                    <ul>
+                        <li>プロプラン全機能</li>
+                        <li>カスタムAIモデル</li>
+                        <li>専用サポート</li>
+                        <li>オンサイト研修</li>
+                        <li>SSO対応</li>
+                    </ul>
+                    <a href="#" class="c-m-btn c-m-btn--outline">お問い合わせ</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- フッター -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 やきいも@AIチーム｜ AIクリエイターズ・スタジオ. All rights reserved.</p>
+    <!-- FAQ -->
+    <section class="p-m-index-faq" id="faq">
+        <div class="c-m-inner">
+            <h2 class="c-m-section-title">よくある質問</h2>
+            <div class="p-m-index-faq__list">
+                <div class="p-m-index-faq__item">
+                    <div class="p-m-index-faq__question">
+                        <h3>無料トライアルはどのような内容ですか？</h3>
+                        <span class="p-m-index-faq__icon">+</span>
+                    </div>
+                    <div class="p-m-index-faq__answer">
+                        <p>プロプランの全機能を14日間無料でお試しいただけます。クレジットカードの登録は不要で、期間終了後の自動課金もありません。</p>
+                    </div>
+                </div>
+                
+                <div class="p-m-index-faq__item">
+                    <div class="p-m-index-faq__question">
+                        <h3>どのような業界に対応していますか？</h3>
+                        <span class="p-m-index-faq__icon">+</span>
+                    </div>
+                    <div class="p-m-index-faq__answer">
+                        <p>広告、デザイン、映像制作、マーケティング、コンサルティングなど、幅広い業界に対応しています。業界特化のAIモデルも提供しています。</p>
+                    </div>
+                </div>
+                
+                <div class="p-m-index-faq__item">
+                    <div class="p-m-index-faq__question">
+                        <h3>データのセキュリティは大丈夫ですか？</h3>
+                        <span class="p-m-index-faq__icon">+</span>
+                    </div>
+                    <div class="p-m-index-faq__answer">
+                        <p>ISO27001準拠のセキュリティ体制で、お客様のデータを厳重に保護しています。データは暗号化され、第三者への提供は一切行いません。</p>
+                    </div>
+                </div>
+                
+                <div class="p-m-index-faq__item">
+                    <div class="p-m-index-faq__question">
+                        <h3>チームでの利用は可能ですか？</h3>
+                        <span class="p-m-index-faq__icon">+</span>
+                    </div>
+                    <div class="p-m-index-faq__answer">
+                        <p>はい、可能です。プロプラン以上では複数ユーザーでのアカウント共有や、プロジェクト管理機能をご利用いただけます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="l-m-footer">
+        <div class="c-m-inner">
+            <div class="l-m-footer__content">
+                <div class="l-m-footer__company">
+                    <div class="l-m-footer__logo">
+                        <img src="#" alt="CreativeFlow" />
+                    </div>
+                    <p>クリエイターの創作活動を支援するAIアシスタント</p>
+                </div>
+                <div class="l-m-footer__links">
+                    <div class="l-m-footer__column">
+                        <h4>サービス</h4>
+                        <ul>
+                            <li><a href="#">機能一覧</a></li>
+                            <li><a href="#">料金プラン</a></li>
+                            <li><a href="#">導入事例</a></li>
+                        </ul>
+                    </div>
+                    <div class="l-m-footer__column">
+                        <h4>サポート</h4>
+                        <ul>
+                            <li><a href="#">ヘルプセンター</a></li>
+                            <li><a href="#">お問い合わせ</a></li>
+                            <li><a href="#">API ドキュメント</a></li>
+                        </ul>
+                    </div>
+                    <div class="l-m-footer__column">
+                        <h4>会社情報</h4>
+                        <ul>
+                            <li><a href="#">会社概要</a></li>
+                            <li><a href="#">採用情報</a></li>
+                            <li><a href="#">ニュース</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="l-m-footer__bottom">
+                <div class="l-m-footer__legal">
+                    <a href="#">利用規約</a>
+                    <a href="#">プライバシーポリシー</a>
+                    <a href="#">特定商取引法</a>
+                </div>
+                <div class="l-m-footer__copyright">
+                    <p>&copy; 2024 CreativeFlow Inc. All rights reserved.</p>
+                </div>
+            </div>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="common.js"></script>
 </body>
 </html>
